@@ -1,0 +1,60 @@
+{
+  "schema_version": "EXP-RETPROB-CERT-1.0",
+  "cert_id": "m1_path_p8_bad_start_rejected",
+  "mode": "good_vertex_return_cert",
+  "reference": "Melissaris arXiv:2611.32677 Eq. (4) (Path P8 violates good condition)",
+  "payload": {
+    "n": 8,
+    "d": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "start_s": 3,
+    "walk_t": 2,
+    "eta": "1/20",
+    "claimed_A_s": "227/648",
+    "claimed_B_s": "205747/839808",
+    "claimed_D_s": [
+      0,
+      7
+    ],
+    "claimed_J_s": "145/839808",
+    "claimed_is_good": false,
+    "claimed_H_s": [
+      2,
+      3,
+      4
+    ],
+    "claimed_dirichlet_energy": "71201/5038848",
+    "claimed_tv_to_uniform_H_s": "16/81",
+    "claimed_boundary_H_s": 2,
+    "claimed_trace_K_2t": "145/162"
+  }
+}

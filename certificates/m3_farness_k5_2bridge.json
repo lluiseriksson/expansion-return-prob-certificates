@@ -1,0 +1,112 @@
+{
+  "schema_version": "EXP-RETPROB-CERT-1.0",
+  "cert_id": "m3_farness_k5_2bridge",
+  "mode": "balanced_cut_farness_cert",
+  "reference": "Melissaris arXiv:2611.32677 Lem. 7.3 (K5-K5 2-bridge farness)",
+  "payload": {
+    "n": 10,
+    "d": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        6
+      ]
+    ],
+    "cut_A": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "target_c_star": "3/2",
+    "claimed_h0": "2/5",
+    "claimed_h1": "2/5",
+    "claimed_M_lower_bound": "22/19",
+    "claimed_eps0_lower_bound": "11/950"
+  }
+}

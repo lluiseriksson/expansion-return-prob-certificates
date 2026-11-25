@@ -1,0 +1,82 @@
+{
+  "schema_version": "EXP-RETPROB-CERT-1.0",
+  "cert_id": "m3_farness_cyclic_3block_lift",
+  "mode": "balanced_cut_farness_cert",
+  "reference": "Melissaris arXiv:2611.32677 Lem. 7.2 & 7.3 (Cyclic Z_3 lift cut)",
+  "payload": {
+    "n": 9,
+    "d": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "cut_A": [
+      0,
+      1,
+      2
+    ],
+    "target_c_star": "2",
+    "claimed_h0": "4/3",
+    "claimed_h1": "4/3",
+    "claimed_M_lower_bound": "4/5",
+    "claimed_eps0_lower_bound": "1/90"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "EXP-RETPROB-CERT-1.0",
+  "cert_id": "m2_trim_clean_k5_no_removal",
+  "mode": "induced_expander_trim_cert",
+  "reference": "Melissaris arXiv:2611.32677 Lem. 5.3 (clean K5, R=empty)",
+  "payload": {
+    "n": 8,
+    "d": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "H": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "h_bound": "2",
+    "claimed_boundary_H": 1,
+    "claimed_tau": "1/5",
+    "claimed_R_maximizer": [],
+    "claimed_F_max": "0",
+    "claimed_U": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "claimed_induced_expansion_U": "3",
+    "claimed_boundary_U": 1
+  }
+}

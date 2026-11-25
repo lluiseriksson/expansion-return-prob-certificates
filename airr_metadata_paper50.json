@@ -1,0 +1,28 @@
+{
+  "title": "Certified Verification of Expansion Testing without Connectivity via Lazy-Walk Return Probabilities",
+  "authors": ["Lluis Eriksson"],
+  "abstract": "We construct a standalone zero-dependency Lean 4.35.0 formalization of 18 core lazy-walk, finite Cauchy-Schwarz, Dirichlet-energy, trace-gap, integer Bernoulli, induced-expander trimming, balanced-cut farness, non-backtracking polynomial, and three-squares parity theorems (zero sorry, zero warnings, zero Classical.choice) for Nikolas Melissaris (arXiv:2611.32677, Nov 2026), paired with a zero-floating-point exact rational/integer four-mode certificate verifier (EXP-RETPROB-CERT-1.0). Across 16 canonical certificates (0.180-2.195 ms, total 14.53 ms), all exact lazy-walk return probabilities, Lemma 5.3 trimming maximizers, Lemma 7.3 balanced-cut farness lower bounds, Lemma 7.5 non-backtracking polynomials, and Lemma 7.4 three-squares scaling witnesses replay deterministically while rejecting 60/60 live adversarial forgery attacks.",
+  "primary_domain": "Computer Science",
+  "secondary_domains": ["Property Testing", "Spectral Graph Theory", "Formal Verification"],
+  "keywords": [
+    "expansion testing",
+    "return probabilities",
+    "lazy random walks",
+    "non-backtracking walks",
+    "induced expanders",
+    "Cayley graphs",
+    "Lean 4",
+    "exact rational certificates"
+  ],
+  "license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "repository_url": "https://github.com/lluiseriksson/expansion-return-prob-certificates",
+  "reference_work": {
+    "authors": ["Nikolas Melissaris"],
+    "title": "Testing Expansion without Connectivity via Return Probabilities",
+    "arxiv_id": "2611.32677",
+    "date": "2026-11-24"
+  },
+  "operator_conflict": true,
+  "ai_assistance_disclosure": "Prepared by sole author Lluis Eriksson with AI coding, formalization, and drafting assistance from Google Antigravity; all Lean 4 proofs, exact rational/integer certificates, and adversarial tests were independently compiled and machine-verified locally."
+}

@@ -1,0 +1,252 @@
+{
+  "certificates": [
+    {
+      "cert_id": "m1_disjoint_2k4_good_start",
+      "mode": "good_vertex_return_cert",
+      "ok": true,
+      "verify_ns": 1817100,
+      "summary": {
+        "n": 8,
+        "t": 3,
+        "is_good": true,
+        "H_size": 4,
+        "D_size": 0,
+        "boundary_H_s": 0,
+        "cert_id": "m1_disjoint_2k4_good_start",
+        "mode": "good_vertex_return_cert"
+      }
+    },
+    {
+      "cert_id": "m1_disjoint_k5_k3_asymmetric",
+      "mode": "good_vertex_return_cert",
+      "ok": true,
+      "verify_ns": 2164300,
+      "summary": {
+        "n": 8,
+        "t": 3,
+        "is_good": true,
+        "H_size": 5,
+        "D_size": 3,
+        "boundary_H_s": 0,
+        "cert_id": "m1_disjoint_k5_k3_asymmetric",
+        "mode": "good_vertex_return_cert"
+      }
+    },
+    {
+      "cert_id": "m1_barbell_k4_bridge_slow_cut",
+      "mode": "good_vertex_return_cert",
+      "ok": true,
+      "verify_ns": 2195300,
+      "summary": {
+        "n": 8,
+        "t": 2,
+        "is_good": false,
+        "H_size": 4,
+        "D_size": 0,
+        "boundary_H_s": 1,
+        "cert_id": "m1_barbell_k4_bridge_slow_cut",
+        "mode": "good_vertex_return_cert"
+      }
+    },
+    {
+      "cert_id": "m1_path_p8_bad_start_rejected",
+      "mode": "good_vertex_return_cert",
+      "ok": true,
+      "verify_ns": 1699500,
+      "summary": {
+        "n": 8,
+        "t": 2,
+        "is_good": false,
+        "H_size": 3,
+        "D_size": 2,
+        "boundary_H_s": 2,
+        "cert_id": "m1_path_p8_bad_start_rejected",
+        "mode": "good_vertex_return_cert"
+      }
+    },
+    {
+      "cert_id": "m2_trim_clean_k5_no_removal",
+      "mode": "induced_expander_trim_cert",
+      "ok": true,
+      "verify_ns": 280200,
+      "summary": {
+        "H_size": 5,
+        "R_size": 0,
+        "U_size": 5,
+        "induced_expansion_U": "3",
+        "boundary_U": 1,
+        "cert_id": "m2_trim_clean_k5_no_removal",
+        "mode": "induced_expander_trim_cert"
+      }
+    },
+    {
+      "cert_id": "m2_trim_dangling_vertex_to_k5",
+      "mode": "induced_expander_trim_cert",
+      "ok": true,
+      "verify_ns": 402300,
+      "summary": {
+        "H_size": 6,
+        "R_size": 1,
+        "U_size": 5,
+        "induced_expansion_U": "3",
+        "boundary_U": 0,
+        "cert_id": "m2_trim_dangling_vertex_to_k5",
+        "mode": "induced_expander_trim_cert"
+      }
+    },
+    {
+      "cert_id": "m2_trim_boundary_vertex_to_k6",
+      "mode": "induced_expander_trim_cert",
+      "ok": true,
+      "verify_ns": 619900,
+      "summary": {
+        "H_size": 7,
+        "R_size": 1,
+        "U_size": 6,
+        "induced_expansion_U": "3",
+        "boundary_U": 0,
+        "cert_id": "m2_trim_boundary_vertex_to_k6",
+        "mode": "induced_expander_trim_cert"
+      }
+    },
+    {
+      "cert_id": "m2_trim_two_vertex_appendage",
+      "mode": "induced_expander_trim_cert",
+      "ok": true,
+      "verify_ns": 350700,
+      "summary": {
+        "H_size": 6,
+        "R_size": 2,
+        "U_size": 4,
+        "induced_expansion_U": "2",
+        "boundary_U": 0,
+        "cert_id": "m2_trim_two_vertex_appendage",
+        "mode": "induced_expander_trim_cert"
+      }
+    },
+    {
+      "cert_id": "m3_farness_barbell_k4_1bridge",
+      "mode": "balanced_cut_farness_cert",
+      "ok": true,
+      "verify_ns": 568600,
+      "summary": {
+        "n": 8,
+        "h0": "1/4",
+        "h1": "1/4",
+        "M_lb": "3/5",
+        "eps0_lb": "3/320",
+        "cert_id": "m3_farness_barbell_k4_1bridge",
+        "mode": "balanced_cut_farness_cert"
+      }
+    },
+    {
+      "cert_id": "m3_farness_k5_2bridge",
+      "mode": "balanced_cut_farness_cert",
+      "ok": true,
+      "verify_ns": 1978600,
+      "summary": {
+        "n": 10,
+        "h0": "2/5",
+        "h1": "2/5",
+        "M_lb": "22/19",
+        "eps0_lb": "11/950",
+        "cert_id": "m3_farness_k5_2bridge",
+        "mode": "balanced_cut_farness_cert"
+      }
+    },
+    {
+      "cert_id": "m3_farness_hypercube_q3",
+      "mode": "balanced_cut_farness_cert",
+      "ok": true,
+      "verify_ns": 433000,
+      "summary": {
+        "n": 8,
+        "h0": "1",
+        "h1": "1",
+        "M_lb": "4/3",
+        "eps0_lb": "1/36",
+        "cert_id": "m3_farness_hypercube_q3",
+        "mode": "balanced_cut_farness_cert"
+      }
+    },
+    {
+      "cert_id": "m3_farness_cyclic_3block_lift",
+      "mode": "balanced_cut_farness_cert",
+      "ok": true,
+      "verify_ns": 829300,
+      "summary": {
+        "n": 9,
+        "h0": "4/3",
+        "h1": "4/3",
+        "M_lb": "4/5",
+        "eps0_lb": "1/90",
+        "cert_id": "m3_farness_cyclic_3block_lift",
+        "mode": "balanced_cut_farness_cert"
+      }
+    },
+    {
+      "cert_id": "m4_nb_poly_petersen_k5",
+      "mode": "nonbacktracking_and_walkreg_cert",
+      "ok": true,
+      "verify_ns": 501300,
+      "summary": {
+        "submode": "nonbacktracking_lps_poly",
+        "n": 10,
+        "d": 3,
+        "k": 5,
+        "trace_Qk": 120,
+        "R_k": "1/4",
+        "walk_regular": true,
+        "cert_id": "m4_nb_poly_petersen_k5",
+        "mode": "nonbacktracking_and_walkreg_cert"
+      }
+    },
+    {
+      "cert_id": "m4_nb_poly_k33_bipartite_k4",
+      "mode": "nonbacktracking_and_walkreg_cert",
+      "ok": true,
+      "verify_ns": 180100,
+      "summary": {
+        "submode": "nonbacktracking_lps_poly",
+        "n": 6,
+        "d": 3,
+        "k": 4,
+        "trace_Qk": 72,
+        "R_k": "1/2",
+        "walk_regular": true,
+        "cert_id": "m4_nb_poly_k33_bipartite_k4",
+        "mode": "nonbacktracking_and_walkreg_cert"
+      }
+    },
+    {
+      "cert_id": "m4_r3_scaling_and_sec1_ambiguity_n14",
+      "mode": "nonbacktracking_and_walkreg_cert",
+      "ok": true,
+      "verify_ns": 208200,
+      "summary": {
+        "submode": "three_squares_and_collision_ambiguity",
+        "N": 14,
+        "r3_N": 48,
+        "F2_common": "1/2",
+        "F3_gap": "1/18",
+        "cert_id": "m4_r3_scaling_and_sec1_ambiguity_n14",
+        "mode": "nonbacktracking_and_walkreg_cert"
+      }
+    },
+    {
+      "cert_id": "m4_r3_scaling_and_sec1_ambiguity_n27",
+      "mode": "nonbacktracking_and_walkreg_cert",
+      "ok": true,
+      "verify_ns": 303700,
+      "summary": {
+        "submode": "three_squares_and_collision_ambiguity",
+        "N": 27,
+        "r3_N": 32,
+        "F2_common": "1/3",
+        "F3_gap": "1/36",
+        "cert_id": "m4_r3_scaling_and_sec1_ambiguity_n27",
+        "mode": "nonbacktracking_and_walkreg_cert"
+      }
+    }
+  ]
+}

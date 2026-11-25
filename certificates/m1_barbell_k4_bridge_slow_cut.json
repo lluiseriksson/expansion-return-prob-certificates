@@ -1,0 +1,82 @@
+{
+  "schema_version": "EXP-RETPROB-CERT-1.0",
+  "cert_id": "m1_barbell_k4_bridge_slow_cut",
+  "mode": "good_vertex_return_cert",
+  "reference": "Melissaris arXiv:2611.32677 Sec. 2.2 (K4-K4 bridge cut)",
+  "payload": {
+    "n": 8,
+    "d": 4,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "start_s": 0,
+    "walk_t": 2,
+    "eta": "1/16",
+    "claimed_A_s": "597/2048",
+    "claimed_B_s": "481547/2097152",
+    "claimed_D_s": [],
+    "claimed_J_s": "0",
+    "claimed_is_good": false,
+    "claimed_H_s": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "claimed_dirichlet_energy": "98891/16777216",
+    "claimed_tv_to_uniform_H_s": "99/1024",
+    "claimed_boundary_H_s": 1,
+    "claimed_trace_K_2t": "4303/4096"
+  }
+}

@@ -1,0 +1,8 @@
+[project]
+name = "expansion-return-prob-certificates"
+version = "1.0.0"
+description = "Machine-checked Lean 4.35.0 formalization and exact rational certificate verifier for Testing Expansion without Connectivity via Return Probabilities (Melissaris, arXiv:2611.32677)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Lluis Eriksson" }]
+requires-python = ">=3.11"

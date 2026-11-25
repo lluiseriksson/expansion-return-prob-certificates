@@ -1,0 +1,130 @@
+{
+  "rows": [
+    {
+      "graph": "Petersen_n10_d3",
+      "k": 1,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Petersen_n10_d3",
+      "k": 2,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Petersen_n10_d3",
+      "k": 3,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Petersen_n10_d3",
+      "k": 4,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Petersen_n10_d3",
+      "k": 5,
+      "trace_Qk": 120,
+      "R_k": "1/4",
+      "R_k_plot": 0.25
+    },
+    {
+      "graph": "Petersen_n10_d3",
+      "k": 6,
+      "trace_Qk": 120,
+      "R_k": "1/8",
+      "R_k_plot": 0.125
+    },
+    {
+      "graph": "Hypercube_Q3_n8_d3",
+      "k": 1,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Hypercube_Q3_n8_d3",
+      "k": 2,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Hypercube_Q3_n8_d3",
+      "k": 3,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Hypercube_Q3_n8_d3",
+      "k": 4,
+      "trace_Qk": 48,
+      "R_k": "1/4",
+      "R_k_plot": 0.25
+    },
+    {
+      "graph": "Hypercube_Q3_n8_d3",
+      "k": 5,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Hypercube_Q3_n8_d3",
+      "k": 6,
+      "trace_Qk": 240,
+      "R_k": "5/16",
+      "R_k_plot": 0.3125
+    },
+    {
+      "graph": "Bipartite_K33_n6_d3",
+      "k": 1,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Bipartite_K33_n6_d3",
+      "k": 2,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Bipartite_K33_n6_d3",
+      "k": 3,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Bipartite_K33_n6_d3",
+      "k": 4,
+      "trace_Qk": 72,
+      "R_k": "1/2",
+      "R_k_plot": 0.5
+    },
+    {
+      "graph": "Bipartite_K33_n6_d3",
+      "k": 5,
+      "trace_Qk": 0,
+      "R_k": "0",
+      "R_k_plot": 0.0
+    },
+    {
+      "graph": "Bipartite_K33_n6_d3",
+      "k": 6,
+      "trace_Qk": 144,
+      "R_k": "1/4",
+      "R_k_plot": 0.25
+    }
+  ]
+}

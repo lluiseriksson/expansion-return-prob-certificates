@@ -1,0 +1,78 @@
+{
+  "schema_version": "EXP-RETPROB-CERT-1.0",
+  "cert_id": "m4_nb_poly_petersen_k5",
+  "mode": "nonbacktracking_and_walkreg_cert",
+  "reference": "Melissaris arXiv:2611.32677 Lem. 7.5 (Petersen graph Q_5(A), girth=5)",
+  "payload": {
+    "submode": "nonbacktracking_lps_poly",
+    "n": 10,
+    "d": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "walk_k": 5,
+    "claimed_row_sum_Qk": 48,
+    "claimed_trace_Qk": 120,
+    "claimed_return_prob_Rk": "1/4",
+    "claimed_is_walk_regular_up_to_k": true
+  }
+}

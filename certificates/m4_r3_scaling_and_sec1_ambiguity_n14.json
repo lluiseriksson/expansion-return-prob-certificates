@@ -1,0 +1,24 @@
+{
+  "schema_version": "EXP-RETPROB-CERT-1.0",
+  "cert_id": "m4_r3_scaling_and_sec1_ambiguity_n14",
+  "mode": "nonbacktracking_and_walkreg_cert",
+  "reference": "Melissaris arXiv:2611.32677 Sec. 1 & Lem. 7.4 (r_3(56)=r_3(14) & F_2=1/2 ambiguity)",
+  "payload": {
+    "submode": "three_squares_and_collision_ambiguity",
+    "N_value": 14,
+    "claimed_r3_N": 48,
+    "claimed_r3_4N": 48,
+    "dist_p": [
+      "1/2",
+      "1/2"
+    ],
+    "dist_q": [
+      "2/3",
+      "1/6",
+      "1/6"
+    ],
+    "claimed_F2_common": "1/2",
+    "claimed_F3_p": "1/4",
+    "claimed_F3_q": "11/36"
+  }
+}

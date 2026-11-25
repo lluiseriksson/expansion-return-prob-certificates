@@ -1,0 +1,54 @@
+{
+  "schema_version": "EXP-RETPROB-CERT-1.0",
+  "cert_id": "m4_nb_poly_k33_bipartite_k4",
+  "mode": "nonbacktracking_and_walkreg_cert",
+  "reference": "Melissaris arXiv:2611.32677 Lem. 7.5 & App. A (Bipartite K_{3,3} Q_4(A))",
+  "payload": {
+    "submode": "nonbacktracking_lps_poly",
+    "n": 6,
+    "d": 3,
+    "edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "walk_k": 4,
+    "claimed_row_sum_Qk": 24,
+    "claimed_trace_Qk": 72,
+    "claimed_return_prob_Rk": "1/2",
+    "claimed_is_walk_regular_up_to_k": true
+  }
+}
